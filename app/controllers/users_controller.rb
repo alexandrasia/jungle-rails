@@ -29,7 +29,6 @@ class UsersController < ApplicationController
     respond_to do |format|
       if @user.save
         session[:user_id] = @user.id
-        # change @user to :products
         format.html { redirect_to :products, notice: 'User was successfully created.' }
         format.json { render :show, status: :created, location: @user }
       else
