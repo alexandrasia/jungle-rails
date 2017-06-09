@@ -133,4 +133,46 @@ cat3.products.create!({
 })
 
 
+#REVIEWS
+
+puts "Re-creating Reviews ..."
+
+Review.destroy_all
+
+Review.create!({
+  product_id: 3,
+  user_id: 2,
+  description: 'This is a wonderful product!!!!!!!!! Definitely buy it if you have the money!!!!',
+  rating: 5
+})
+
+Review.create!({
+  product_id: 5,
+  user_id: 1,
+  description: 'These shoes are awful.',
+  rating: 1
+})
+
+Review.create!({
+  product_id: 4,
+  user_id: 3,
+  description: 'This is a great buy. Very cool! Best socks ever!',
+  rating: 4
+})
+
+Review.create!({
+  product_id: 10,
+  user_id: 4,
+  description: 'I bought this last year and it was a wonderful decision. I highly recommend it as a gift. Everyone loves sleeping in this bed. It is the best.',
+  rating: 5
+})
+
+Review.create!({
+  product_id: 8,
+  user_id: 1,
+  description: 'This hotdog slicer does not work. What a disappointment',
+  rating: 2
+})
+
+
 puts "DONE!"

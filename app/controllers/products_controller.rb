@@ -6,6 +6,12 @@ class ProductsController < ApplicationController
 
   def show
     @product = Product.find params[:id]
+    @new_review = Review.new
   end
 
+  # private
+
+  #   def product_params
+  #     params.require(:product).permit(:)
+  #   end
 end
