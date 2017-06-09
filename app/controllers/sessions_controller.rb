@@ -19,7 +19,8 @@ class SessionsController < ApplicationController
 
   def destroy
     session[:user_id] = nil
-    redirect_to '/login'
+    # NOT WORKING flash[:notice] = 'Thank you for visiting Jungle!'
+    redirect_to '/'
   end
 
 end
