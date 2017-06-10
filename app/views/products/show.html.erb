@@ -39,6 +39,7 @@
       <%= form.text_area :description, id: :review_description, size: "80x6" %>
       <%= form.label :rating %>
       <%= form.select :rating, ['1', '2', '3', '4', '5'] %>
+      <%= form.hidden_field :user_id, value: current_user.id %>
     </div>
     <div class="actions">
       <%= form.submit %>
@@ -52,6 +53,7 @@
       <p>No reviews for this product!</p>
       <% else %>
       <%= render @sorted_reviews %>
+
       <% end %>
 
   </article>
