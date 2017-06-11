@@ -13,7 +13,7 @@ This was a week-long project simulating a real world experience where you inheri
 * Bug - Checking out with Empty Cart
 * Feature - Product Rating
 
-## Screebnshots
+## Screenshots
 
 !["Jungle Homepage"](https://github.com/alexandrasia/jungle-rails/blob/master/docs/jungle-homepage.png?raw=true)
 !["Product and Reviews"](https://github.com/alexandrasia/jungle-rails/blob/master/docs/product-details-reviews.png?raw=true)
