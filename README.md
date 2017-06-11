@@ -2,6 +2,23 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
+This was a week-long project simulating a real world experience where you inherit an existing code base in a language and framework that you are not familiar with. Functionality for certain features were implemented or bugs fixed including:
+
+* Feature - Sold Out Badge
+* Feature - Admin Categories
+* Feature - User Authentication
+* Feature - Enhancement to Order Details Page
+* Feature - Email Receipt
+* Bug - Missing Admin Security
+* Bug - Checking out with Empty Cart
+* Feature - Product Rating
+
+## Screebnshots
+
+!["Jungle Homepage"](https://github.com/alexandrasia/jungle-rails/blob/master/docs/jungle-homepage.png?raw=true)
+!["Product and Reviews"](https://github.com/alexandrasia/jungle-rails/blob/master/docs/product-details-reviews.png?raw=true)
+!["Order Page"](https://github.com/alexandrasia/jungle-rails/blob/master/docs/jungle-orderpage.png?raw=true)
+
 
 ## Setup
 
