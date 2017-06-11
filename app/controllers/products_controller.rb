@@ -10,10 +10,4 @@ class ProductsController < ApplicationController
 
     @sorted_reviews = @product.reviews.order(created_at: :desc)
   end
-
-  # private
-
-  #   def product_params
-  #     params.require(:product).permit(:)
-  #   end
 end

@@ -91,4 +91,23 @@ li.user-name {
 }
 
 
+.review {
+  border: 1px solid #eee;
+  margin: 4px 4px 40px 4px;
+
+  .review-box {
+    margin: 8px;
+
+    p {
+      font-size: 1.5em;
+    }
+  }
+
+  .delete-review {
+    float: right;
+  }
+
+}
+
+
 
